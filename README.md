@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Gerenciador de Escalas por Loja
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+O Gerenciador de Escalas por Loja é uma aplicação web desenvolvida para simplificar e otimizar o processo de criação e gerenciamento de escalas de funcionários em diferentes lojas. Utilizando tecnologias modernas como React e a biblioteca react-beautiful-dnd, este aplicativo oferece uma interface intuitiva e interativa para organizar turnos de trabalho de forma eficiente.
 
-In the project directory, you can run:
+## Funcionalidades Principais
 
-### `npm start`
+1. **Gerenciamento de Lojas**: Adicione e visualize múltiplas lojas no sistema.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Cadastro de Funcionários**: Registre informações detalhadas dos funcionários, incluindo nome, função, gênero e disponibilidade de transporte para cada loja.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Criação de Escalas**: Utilize um sistema de arrastar e soltar (drag and drop) para alocar funcionários em diferentes turnos e dias da semana.
 
-### `npm test`
+4. **Visualização por Turno**: As escalas são organizadas em três turnos principais: Abertura, Intermédio e Fechamento.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Flexibilidade de Papéis**: Suporta diferentes funções de funcionários, como Líder de loja, Média liderança, Caixa e Novatos.
 
-### `npm run build`
+6. **Interface Responsiva**: Design adaptável para uso em dispositivos desktop e móveis.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- react-beautiful-dnd para funcionalidade de arrastar e soltar
+- Tailwind CSS para estilização
+- Radix UI para componentes de interface do usuário acessíveis
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Como Usar
 
-### `npm run eject`
+1. **Adicionar Lojas**: Na aba "Lojas", adicione as lojas que deseja gerenciar.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Cadastrar Funcionários**: Na aba "Funcionários", cadastre os funcionários, preenchendo todas as informações necessárias.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Criar Escalas**: Na aba "Escalas", selecione uma loja e use o sistema de arrastar e soltar para alocar funcionários nos turnos desejados.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Gerenciar Escalas**: Mova funcionários entre diferentes turnos e dias conforme necessário.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Instalação e Execução
 
-## Learn More
+```bash
+# Clone o repositório
+git clone [URL_DO_SEU_REPOSITÓRIO]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Entre no diretório do projeto
+cd [NOME_DO_DIRETÓRIO]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Instale as dependências
+npm install
 
-### Code Splitting
+# Execute o aplicativo
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+O aplicativo estará disponível em `http://localhost:3000` por padrão.
 
-### Analyzing the Bundle Size
+## Contribuições
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contribuições para melhorar o Gerenciador de Escalas por Loja são sempre bem-vindas. Sinta-se à vontade para abrir issues ou enviar pull requests com novas funcionalidades, correções de bugs ou melhorias na documentação.
 
-### Making a Progressive Web App
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Insira aqui a licença escolhida para o seu projeto, por exemplo: MIT License]
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido com ❤️ por ftrajano+claude.ai
